@@ -1,0 +1,46 @@
+body, html {
+    margin: 0;
+    padding-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+#navbar {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    background-color: black;
+    color: rgb(108, 54, 15);
+    z-index: 1000;
+}
+
+#navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: baseline;
+}
+
+#navbar li {
+    margin: 0 15px;
+    color: white;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+}
+
+#navbar a:hover {
+    color: #ef0505;
+    
+}
+
+.content {
+    padding-top: 60px;
+}
+
+
+
